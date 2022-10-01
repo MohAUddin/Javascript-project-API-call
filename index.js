@@ -19,5 +19,8 @@ async function main() {
   );
 }
 
+// We have to map the values to the html values using .map
+// function and then we use .join("") to join the values and 
+// turn them into html properties
 
 main();
