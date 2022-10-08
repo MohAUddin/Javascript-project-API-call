@@ -16,8 +16,8 @@ async function main() {
 main();
 
 function showUserPost(id){
-    window.location.href = `https://127.0.0.1:5500/user.html`
-    console.log(id)
+    localStorage.setItem("id", id)
+    window.location.href = `${window.location.origin}/user.html`
 }
 
 function userHtml(user){
