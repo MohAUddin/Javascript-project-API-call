@@ -1,5 +1,8 @@
 const postListEl = document.querySelector('.post-list')
 
+function onSearchChange(){
+    console.log("202222")
+}
 
 async function main(){
     const id = localStorage.getItem("id")
